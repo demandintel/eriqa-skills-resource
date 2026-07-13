@@ -106,9 +106,11 @@ demandintel-skills-resource/
 │       ├── README.md
 │       └── references/*.md
 ├── downloads/                 Pre-built .zip bundles for manual install
-├── CHANGELOG.md
-└── CONTRIBUTING.md
+└── CHANGELOG.md
 ```
+
+> This repository is a controlled distribution channel maintained by DemandIntel
+> — public for read/download only. It does not accept external contributions.
 
 ## Manual install / downloads
 
@@ -129,7 +131,7 @@ Every skill keeps its `references/` folder alongside `SKILL.md` — do not separ
 
 - MCP setup & tools: https://demandintel.io/mcp
 - Account & tokens: https://demandintel.io/app/settings
-- Questions / issues: open an [issue](../../issues) or email support@demandintel.io
+- Questions or problems: email support@demandintel.io
 
 ## License
 
