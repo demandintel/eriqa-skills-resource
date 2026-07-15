@@ -28,7 +28,7 @@ Mint a Personal Access Token (`di_pat_…`) at **[demandintel.io/app/settings �
 ### Claude Code (recommended — one hit)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/nimajnebrevilo/demandintel-skills-resource/main/install.sh | DEMANDINTEL_API_KEY=di_pat_xxx bash
+curl -fsSL https://raw.githubusercontent.com/demandintel/demandintel-skills-resource/main/install.sh | DEMANDINTEL_API_KEY=di_pat_xxx bash
 ```
 
 Installs the skills into `~/.claude/skills/` and registers the MCP server via `claude mcp add`. Restart Claude Code and run `/mcp` to confirm `demandintel` appears.
@@ -51,7 +51,7 @@ Add to `~/.cursor/mcp.json` (or a project `.cursor/mcp.json`):
 To also install the skill files, run the installer with `--client cursor`:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/nimajnebrevilo/demandintel-skills-resource/main/install.sh | DEMANDINTEL_API_KEY=di_pat_xxx bash -s -- --client cursor
+curl -fsSL https://raw.githubusercontent.com/demandintel/demandintel-skills-resource/main/install.sh | DEMANDINTEL_API_KEY=di_pat_xxx bash -s -- --client cursor
 ```
 </details>
 
@@ -73,7 +73,7 @@ Install skills with `... | bash -s -- --client codex`.
 <summary><b>Direct run</b></summary>
 
 ```bash
-DEMANDINTEL_API_KEY=di_pat_xxx bash -c "$(curl -fsSL https://raw.githubusercontent.com/nimajnebrevilo/demandintel-skills-resource/main/install.sh)"
+DEMANDINTEL_API_KEY=di_pat_xxx bash -c "$(curl -fsSL https://raw.githubusercontent.com/demandintel/demandintel-skills-resource/main/install.sh)"
 ```
 </details>
 

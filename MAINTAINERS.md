@@ -17,7 +17,7 @@
 ## Testing the installer
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/nimajnebrevilo/demandintel-skills-resource/main/install.sh \
+curl -fsSL https://raw.githubusercontent.com/demandintel/demandintel-skills-resource/main/install.sh \
   | DEMANDINTEL_API_KEY=di_pat_xxx bash
 
 # Point at an alternate host while testing

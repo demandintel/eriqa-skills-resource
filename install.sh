@@ -24,7 +24,7 @@
 
 set -euo pipefail
 
-MARKETPLACE_URL="${DEMANDINTEL_MARKETPLACE_URL:-https://raw.githubusercontent.com/nimajnebrevilo/demandintel-skills-resource/main}"
+MARKETPLACE_URL="${DEMANDINTEL_MARKETPLACE_URL:-https://raw.githubusercontent.com/demandintel/demandintel-skills-resource/main}"
 MCP_URL="https://mcp.app.demandintel.io/v1"
 
 # ---- helpers ---------------------------------------------------------------
