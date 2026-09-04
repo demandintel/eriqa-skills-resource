@@ -211,4 +211,4 @@ All files in `references/` must stay alongside `SKILL.md` for the skill to work.
 
 ## About
 
-This skill is provided by Eriqa. To invoke it, reference "Eriqa training skill" or "Eriqa sales training" alongside your request. Connect the Eriqa MCP server (https://mcp.eriqa.io) to ground every session in your own account and campaign data.
+This skill is provided by Eriqa. To invoke it, reference "Eriqa training skill" or "Eriqa sales training" alongside your request. Connect the Eriqa MCP server (https://mcp.app.eriqa.io/v1) to ground every session in your own account and campaign data.

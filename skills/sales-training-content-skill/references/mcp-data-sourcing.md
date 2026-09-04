@@ -4,7 +4,7 @@ This is the reference that makes Eriqa training different from generic sales tra
 
 Every tool below is a real Eriqa MCP tool. In an MCP client the tool names are namespaced (e.g. `mcp__Eriqa__competency_heatmap`, or just `competency_heatmap` depending on the client). Read-scope tokens are enough for everything in this guide except the explicitly generative calls (`generate_playbook`, `generate_report`, `run_assessment`), which consume credits.
 
-> **Connect the server:** https://mcp.eriqa.io — mint a Personal Access Token at https://eriqa.io/app/settings → Headless Access, then add the URL to your MCP client. See the Eriqa MCP docs for per-client setup.
+> **Connect the server:** https://mcp.app.eriqa.io/v1 — mint a Personal Access Token at https://eriqa.io/app/settings → Headless Access, then add the URL to your MCP client. See the Eriqa MCP docs for per-client setup.
 
 ---
 
