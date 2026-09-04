@@ -23,15 +23,15 @@ The installer wires up both at once, so after one command your assistant is read
 
 ## Quick start
 
-Mint a Personal Access Token (`di_pat_…`) at **[Eriqa.io/app/settings → API / MCP](https://Eriqa.io/app/settings)**, then run the command for your client.
+Mint a Personal Access Token (`di_pat_…`) at **[eriqa.io/app/settings → API / MCP](https://eriqa.io/app/settings)**, then run the command for your client.
 
 ### Claude Code (recommended — one hit)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Eriqa/Eriqa-skills-resource/main/install.sh | ERIQA_API_KEY=di_pat_xxx bash
+curl -fsSL https://raw.githubusercontent.com/demandintel/eriqa-skills-resource/main/install.sh | ERIQA_API_KEY=di_pat_xxx bash
 ```
 
-Installs the skills into `~/.claude/skills/` and registers the MCP server via `claude mcp add`. Restart Claude Code and run `/mcp` to confirm `Eriqa` appears.
+Installs the skills into `~/.claude/skills/` and registers the MCP server via `claude mcp add`. Restart Claude Code and run `/mcp` to confirm `eriqa` appears.
 
 <details>
 <summary><b>Cursor / IDEs</b></summary>
@@ -41,8 +41,8 @@ Add to `~/.cursor/mcp.json` (or a project `.cursor/mcp.json`):
 ```json
 {
   "mcpServers": {
-    "Eriqa": {
-      "url": "https://mcp.app.Eriqa.io/v1?token=di_pat_xxx"
+    "eriqa": {
+      "url": "https://mcp.app.eriqa.io/v1?token=di_pat_xxx"
     }
   }
 }
@@ -51,7 +51,7 @@ Add to `~/.cursor/mcp.json` (or a project `.cursor/mcp.json`):
 To also install the skill files, run the installer with `--client cursor`:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Eriqa/Eriqa-skills-resource/main/install.sh | ERIQA_API_KEY=di_pat_xxx bash -s -- --client cursor
+curl -fsSL https://raw.githubusercontent.com/demandintel/eriqa-skills-resource/main/install.sh | ERIQA_API_KEY=di_pat_xxx bash -s -- --client cursor
 ```
 </details>
 
@@ -61,9 +61,9 @@ curl -fsSL https://raw.githubusercontent.com/Eriqa/Eriqa-skills-resource/main/in
 Add to `~/.codex/config.toml` (uses the `mcp-remote` stdio bridge):
 
 ```toml
-[mcp_servers.Eriqa]
+[mcp_servers.eriqa]
 command = "npx"
-args = ["-y", "mcp-remote", "https://mcp.app.Eriqa.io/v1", "--header", "Authorization: Bearer di_pat_xxx"]
+args = ["-y", "mcp-remote", "https://mcp.app.eriqa.io/v1", "--header", "Authorization: Bearer di_pat_xxx"]
 ```
 
 Install skills with `... | bash -s -- --client codex`.
@@ -73,7 +73,7 @@ Install skills with `... | bash -s -- --client codex`.
 <summary><b>Direct run</b></summary>
 
 ```bash
-ERIQA_API_KEY=di_pat_xxx bash -c "$(curl -fsSL https://raw.githubusercontent.com/Eriqa/Eriqa-skills-resource/main/install.sh)"
+ERIQA_API_KEY=di_pat_xxx bash -c "$(curl -fsSL https://raw.githubusercontent.com/demandintel/eriqa-skills-resource/main/install.sh)"
 ```
 </details>
 
@@ -82,7 +82,7 @@ ERIQA_API_KEY=di_pat_xxx bash -c "$(curl -fsSL https://raw.githubusercontent.com
 ## What gets installed
 
 1. Each skill's files (`SKILL.md` + `references/*`) into your client's skills directory, folder structure preserved.
-2. The `Eriqa` MCP server, pointed at `https://mcp.app.Eriqa.io/v1` with your token.
+2. The `eriqa` MCP server, pointed at `https://mcp.app.eriqa.io/v1` with your token.
 
 Installer flags: `--client claude|cursor|codex` (auto-detected otherwise) · `--skill <name>` (one skill) · `--all` (default).
 
@@ -90,14 +90,14 @@ Installer flags: `--client claude|cursor|codex` (auto-detected otherwise) · `--
 
 | Skill | Description | Version | Docs |
 |-------|-------------|---------|------|
-| [`sales-training-content-skill`](skills/sales-training-content-skill) | Build sales / CS / support training grounded in your own Eriqa QA + competency data — trainer notes, exercises, assessments, worked examples across all 14 roles and 18 default frameworks. | 1.0.0 | [README](skills/sales-training-content-skill/README.md) · [SKILL.md](skills/sales-training-content-skill/SKILL.md) |
+| [`sales-training-content-skill`](skills/sales-training-content-skill) | Build sales / CS / support training grounded in your own Eriqa QA + competency data — trainer notes, exercises, assessments, worked examples across all 14 roles and 18 default frameworks. | 1.0.1 | [README](skills/sales-training-content-skill/README.md) · [SKILL.md](skills/sales-training-content-skill/SKILL.md) |
 
 The machine-readable catalog lives in [`marketplace.json`](marketplace.json).
 
 ## Repository structure
 
 ```
-Eriqa-skills-resource/
+eriqa-skills-resource/
 ├── install.sh                 One-hit installer (curl | bash)
 ├── marketplace.json           Machine-readable catalog (skills + MCP metadata)
 ├── skills/                    The skills, browsable for review
@@ -124,14 +124,14 @@ Every skill keeps its `references/` folder alongside `SKILL.md` — do not separ
 ## Requirements
 
 - An AI assistant that supports MCP (Claude Code, Cursor, Codex, ChatGPT desktop, Continue, …).
-- A Eriqa account and a Personal Access Token (`di_pat_…`).
+- An Eriqa account and a Personal Access Token (`di_pat_…`).
 - For the installer: `curl`, and `python3` or `node` (to read the manifest). For Codex: `npx`.
 
 ## Support
 
-- MCP setup & tools: https://Eriqa.io/mcp
-- Account & tokens: https://Eriqa.io/app/settings
-- Questions or problems: email support@Eriqa.io
+- MCP setup & tools: https://eriqa.io/mcp
+- Account & tokens: https://eriqa.io/app/settings
+- Questions or problems: email support@eriqa.io
 
 ## License
 
