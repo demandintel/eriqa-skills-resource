@@ -1,6 +1,6 @@
 # Role Guides — Per-Role Session Blueprints & Trainer-Notes Skeletons
 
-Ready-made session blueprints for all **14 roles** the DemandIntel platform serves. Each guide gives you a differentiated 60-90 minute session you could run tomorrow: who the role is, the frameworks to teach, a timed trainer-notes skeleton, the exact MCP pulls to ground it, the exercises and assessment to reach for, and the failure modes to watch.
+Ready-made session blueprints for all **14 roles** the Eriqa platform serves. Each guide gives you a differentiated 60-90 minute session you could run tomorrow: who the role is, the frameworks to teach, a timed trainer-notes skeleton, the exact MCP pulls to ground it, the exercises and assessment to reach for, and the failure modes to watch.
 
 ## How to use these with the SKILL.md workflow
 

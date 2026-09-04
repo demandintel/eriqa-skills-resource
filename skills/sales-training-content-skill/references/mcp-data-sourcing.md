@@ -1,10 +1,10 @@
 # MCP Data Sourcing — Drawing Down Live Account & Campaign Context
 
-This is the reference that makes DemandIntel training different from generic sales training. When the **DemandIntel MCP server** is connected to your client (Claude, Codex, Cursor, ChatGPT desktop, Continue, or any MCP-capable tool), you can pull the client's real account and campaign intelligence and build every scenario, example, role-play, and assessment from it — not from textbook cases.
+This is the reference that makes Eriqa training different from generic sales training. When the **Eriqa MCP server** is connected to your client (Claude, Codex, Cursor, ChatGPT desktop, Continue, or any MCP-capable tool), you can pull the client's real account and campaign intelligence and build every scenario, example, role-play, and assessment from it — not from textbook cases.
 
-Every tool below is a real DemandIntel MCP tool. In an MCP client the tool names are namespaced (e.g. `mcp__DemandIntel__competency_heatmap`, or just `competency_heatmap` depending on the client). Read-scope tokens are enough for everything in this guide except the explicitly generative calls (`generate_playbook`, `generate_report`, `run_assessment`), which consume credits.
+Every tool below is a real Eriqa MCP tool. In an MCP client the tool names are namespaced (e.g. `mcp__Eriqa__competency_heatmap`, or just `competency_heatmap` depending on the client). Read-scope tokens are enough for everything in this guide except the explicitly generative calls (`generate_playbook`, `generate_report`, `run_assessment`), which consume credits.
 
-> **Connect the server:** https://mcp.demandintel.io — mint a Personal Access Token at https://demandintel.io/app/settings → Headless Access, then add the URL to your MCP client. See the DemandIntel MCP docs for per-client setup.
+> **Connect the server:** https://mcp.eriqa.io — mint a Personal Access Token at https://eriqa.io/app/settings → Headless Access, then add the URL to your MCP client. See the Eriqa MCP docs for per-client setup.
 
 ---
 
@@ -124,7 +124,7 @@ Everything after that — trainer notes, handouts, exercises, assessment — is 
 
 ## When the MCP server isn't connected
 
-If the user hasn't connected DemandIntel, the skill still works — fall back to client-provided material, then to detail volunteered in conversation, then to realistic generic scenarios clearly flagged for later adaptation (see the sourcing priority order in `SKILL.md`). But always offer: *"If you connect your DemandIntel account, I can ground this in your team's real competency scores, objections, and calls."* That is the difference between good training and training the team recognises as their own.
+If the user hasn't connected Eriqa, the skill still works — fall back to client-provided material, then to detail volunteered in conversation, then to realistic generic scenarios clearly flagged for later adaptation (see the sourcing priority order in `SKILL.md`). But always offer: *"If you connect your Eriqa account, I can ground this in your team's real competency scores, objections, and calls."* That is the difference between good training and training the team recognises as their own.
 
 ---
 

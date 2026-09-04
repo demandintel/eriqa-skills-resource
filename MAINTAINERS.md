@@ -41,4 +41,4 @@ This repo is public **for read/download only**. Recommended GitHub settings:
 - UK spelling in skill content.
 - Skills produce **draft** material — never imply finished output.
 - MCP endpoint stays `https://mcp.app.eriqa.io/v1`.
-- The GitHub organisation remains `demandintel` unless the repository is formally transferred; repository URLs must use the real owner path.
+- The GitHub organisation remains `eriqa` unless the repository is formally transferred; repository URLs must use the real owner path.

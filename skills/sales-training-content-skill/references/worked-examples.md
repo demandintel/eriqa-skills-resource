@@ -1,6 +1,6 @@
 # Worked Examples — Three Complete Sessions, Data Pull to Assessment
 
-This reference shows what "good" looks like end to end. Each example takes a training brief, draws down live context from the DemandIntel MCP server, diagnoses what the data reveals, and builds the whole session from it: trainer notes with timings and real scripts, participant handouts, and assessment resources.
+This reference shows what "good" looks like end to end. Each example takes a training brief, draws down live context from the Eriqa MCP server, diagnoses what the data reveals, and builds the whole session from it: trainer notes with timings and real scripts, participant handouts, and assessment resources.
 
 Read these to calibrate the **quality bar** for this skill's output. Match this level of specificity — the scripts are meant to be genuinely usable, not placeholder.
 

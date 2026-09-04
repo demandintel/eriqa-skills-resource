@@ -9,9 +9,9 @@ dated log for the repository as a whole.
 ## 2026-09-04 — Eriqa rebrand
 
 ### Changed
-- Rebranded repository documentation, installer, marketplace metadata, skill content, MCP references, support details, and distribution guidance from DemandIntel to Eriqa.
+- Rebranded repository documentation, installer, marketplace metadata, skill content, MCP references, support details, and distribution guidance from Eriqa to Eriqa.
 - Updated the canonical MCP endpoint to `https://mcp.app.eriqa.io/v1` and environment variables to `ERIQA_*`.
-- Kept GitHub repository URLs under the existing `demandintel` organisation because that is the repository's current owner path.
+- Kept GitHub repository URLs under the existing `eriqa` organisation because that is the repository's current owner path.
 - Bumped `sales-training-content-skill` to v1.0.1 for the branding/runtime metadata update.
 
 ## 2026-07-13 — Initial release
