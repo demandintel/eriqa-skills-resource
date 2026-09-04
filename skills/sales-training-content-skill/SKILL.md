@@ -1,28 +1,28 @@
 ---
 name: sales-training-content-skill
 description: |
-  DemandIntel Sales & Customer Success Training Content Skill. Use when the user asks to create, build, or develop a sales, customer success, or support training session, workshop, programme, assessment, or coaching resource on any topic (objection handling, discovery, qualification, cold calling, negotiation, closing, customer success, onboarding, renewals, expansion, support, complaints handling, etc.) or for any role (BDR, SDR, appointment setter, AE, BDM, sales engineer, sales manager, CSM, onboarding specialist, renewals manager, account manager, support agent, technical support specialist, complaints handler).
+  Eriqa Sales & Customer Success Training Content Skill. Use when the user asks to create, build, or develop a sales, customer success, or support training session, workshop, programme, assessment, or coaching resource on any topic (objection handling, discovery, qualification, cold calling, negotiation, closing, customer success, onboarding, renewals, expansion, support, complaints handling, etc.) or for any role (BDR, SDR, appointment setter, AE, BDM, sales engineer, sales manager, CSM, onboarding specialist, renewals manager, account manager, support agent, technical support specialist, complaints handler).
 
-  MANDATORY TRIGGERS: DemandIntel training, DemandIntel sales training skill, DemandIntel training skill, training programme, training session, sales training, CS training, support training, workshop, trainer notes, coaching resource, assessment, competency framework, scorecard, role-play, sales enablement, onboarding curriculum, train the team on, build training for, create a session on, develop training, certify the team.
+  MANDATORY TRIGGERS: Eriqa training, Eriqa sales training skill, Eriqa training skill, training programme, training session, sales training, CS training, support training, workshop, trainer notes, coaching resource, assessment, competency framework, scorecard, role-play, sales enablement, onboarding curriculum, train the team on, build training for, create a session on, develop training, certify the team.
 
-  This skill: (1) Draws down live contextual intelligence from the client's own DemandIntel account and campaigns via the DemandIntel MCP server (competency scores, QA heatmaps, top objections, coaching plans, call transcripts, league tables), (2) Grounds content in a library of tried, tested, and trusted sales, CS, and support methodologies that mirror the platform's own default frameworks, (3) Builds psychology-based training content (not just scripts or battle cards), (4) Creates trainer notes with timings and delivery instructions, (5) Produces participant handouts, worked examples, exercises, and assessment resources for every role the platform serves.
+  This skill: (1) Draws down live contextual intelligence from the client's own Eriqa account and campaigns via the Eriqa MCP server (competency scores, QA heatmaps, top objections, coaching plans, call transcripts, league tables), (2) Grounds content in a library of tried, tested, and trusted sales, CS, and support methodologies that mirror the platform's own default frameworks, (3) Builds psychology-based training content (not just scripts or battle cards), (4) Creates trainer notes with timings and delivery instructions, (5) Produces participant handouts, worked examples, exercises, and assessment resources for every role the platform serves.
 ---
 
 # Sales & Customer Success Training Content Skill
 
-Brought to you by DemandIntel.
+Brought to you by Eriqa.
 
 ## Overview
 
-Build professional B2B sales, customer success, and support training programmes grounded in buyer psychology, established methodologies, and — crucially — the client's own real account and campaign data pulled live from the DemandIntel platform.
+Build professional B2B sales, customer success, and support training programmes grounded in buyer psychology, established methodologies, and — crucially — the client's own real account and campaign data pulled live from the Eriqa platform.
 
 Output includes trainer notes (with timings), live examples, role-play scenarios, participant handouts, exercises, and assessment resources (quizzes, competency rubrics, observer scorecards, certification checklists).
 
-The frameworks and concepts used are widely recognised, tried and tested approaches from across the sales, CS, and support disciplines. They deliberately mirror the **default methodology playbooks the DemandIntel platform itself scores against**, so training built with this skill teaches reps to operate the exact way the platform measures them. This skill selects and applies whichever frameworks are most relevant to the topic, role, call type, and context, rather than defaulting to a single methodology.
+The frameworks and concepts used are widely recognised, tried and tested approaches from across the sales, CS, and support disciplines. They deliberately mirror the **default methodology playbooks the Eriqa platform itself scores against**, so training built with this skill teaches reps to operate the exact way the platform measures them. This skill selects and applies whichever frameworks are most relevant to the topic, role, call type, and context, rather than defaulting to a single methodology.
 
 ## What this skill covers
 
-This skill serves **every role, call type, and framework the DemandIntel platform supports.**
+This skill serves **every role, call type, and framework the Eriqa platform supports.**
 
 **Roles (14):**
 
@@ -40,7 +40,7 @@ This skill serves **every role, call type, and framework the DemandIntel platfor
 
 ### Phase 1: Clarify Requirements
 
-Before building, clarify with the user. Where the DemandIntel MCP server is connected, **infer as many of these as possible from live data** (see Phase 2) and confirm rather than ask cold.
+Before building, clarify with the user. Where the Eriqa MCP server is connected, **infer as many of these as possible from live data** (see Phase 2) and confirm rather than ask cold.
 
 ```
 1. TOPIC: What skill/topic? (e.g. objection handling, discovery, qualification, closing, negotiation, onboarding, renewals, expansion, complaints handling)
@@ -50,7 +50,7 @@ Before building, clarify with the user. Where the DemandIntel MCP server is conn
 5. AUDIENCE: Seniority and mix? (new hires, experienced reps, mixed, managers?)
 6. GROUP SIZE: How many participants? (affects role-play and exercise structure)
 7. REFERENCE MATERIAL: Existing objections, battle cards, playbooks, or past training to match style?
-8. CONTEXTUAL DATA: Which DemandIntel client/campaign should I ground this in? (I will pull live competency scores, QA data, objections, and call examples)
+8. CONTEXTUAL DATA: Which Eriqa client/campaign should I ground this in? (I will pull live competency scores, QA data, objections, and call examples)
 9. ASSESSMENT: Do you want assessment resources too? (quiz, competency rubric, role-play scorecard, certification checklist)
 10. OUTPUT FORMAT: Word, Excel, PowerPoint, or multiple?
 ```
@@ -59,7 +59,7 @@ If reference material or contextual data access is provided, use it. If not, pro
 
 ### Phase 2: Draw Down Live Context + Ground in Methodology
 
-**This is what makes DemandIntel training different from generic sales training.** When the DemandIntel MCP server is connected (in Claude, Codex, Cursor, or any MCP client), pull the client's real account and campaign intelligence and build every scenario, example, and role-play from it.
+**This is what makes Eriqa training different from generic sales training.** When the Eriqa MCP server is connected (in Claude, Codex, Cursor, or any MCP client), pull the client's real account and campaign intelligence and build every scenario, example, and role-play from it.
 
 **See `references/mcp-data-sourcing.md`** for the full tool-by-tool guide. The core moves:
 
@@ -185,7 +185,7 @@ Content should be grounded in the client's actual sales/CS/support data wherever
 
 **Priority order for sourcing scenarios and examples:**
 
-1. **Live data from the DemandIntel MCP server** — competency scores, QA heatmaps, top objections, coaching plans, league tables, call transcripts, reports, insight snapshots. See `references/mcp-data-sourcing.md`.
+1. **Live data from the Eriqa MCP server** — competency scores, QA heatmaps, top objections, coaching plans, league tables, call transcripts, reports, insight snapshots. See `references/mcp-data-sourcing.md`.
 2. **Client-provided reference material** — battle cards, playbooks, past training content.
 3. **Client-specific detail volunteered in the requirements conversation** — industry, ICP, common deal shapes, role.
 4. **Realistic generic scenarios** as a last resort, clearly written to be easily adapted with real client detail later.
@@ -202,7 +202,7 @@ Always prefer option 1 or 2 over invented scenarios.
 - `exercises.md` — Library of playful training activities and exercises for every role group.
 - `assessment-resources.md` — Quizzes, 4-level competency rubrics, role-play scorecards, and certification checklists.
 - `role-guides.md` — Per-role session blueprints and trainer-notes skeletons for all 14 roles.
-- `mcp-data-sourcing.md` — How to draw down account and campaign context via the DemandIntel MCP server, tool by tool.
+- `mcp-data-sourcing.md` — How to draw down account and campaign context via the Eriqa MCP server, tool by tool.
 - `worked-examples.md` — Complete worked training sessions grounded in realistic drawn-down data.
 
 All files in `references/` must stay alongside `SKILL.md` for the skill to work. Do not separate them.
@@ -211,4 +211,4 @@ All files in `references/` must stay alongside `SKILL.md` for the skill to work.
 
 ## About
 
-This skill is provided by DemandIntel. To invoke it, reference "DemandIntel training skill" or "DemandIntel sales training" alongside your request. Connect the DemandIntel MCP server (https://mcp.demandintel.io) to ground every session in your own account and campaign data.
+This skill is provided by Eriqa. To invoke it, reference "Eriqa training skill" or "Eriqa sales training" alongside your request. Connect the Eriqa MCP server (https://mcp.app.eriqa.io/v1) to ground every session in your own account and campaign data.

@@ -1,6 +1,6 @@
 # Assessment Resources
 
-Quizzes, 4-level competency rubrics, role-play observer scorecards, pre/post assessment design, and certification checklists for DemandIntel training.
+Quizzes, 4-level competency rubrics, role-play observer scorecards, pre/post assessment design, and certification checklists for Eriqa training.
 
 Everything here is built to **mirror the platform's own scoring** so a trainer's assessment lines up with the live competency scores the platform reports. All of it is designed to be printed and used in the room.
 
@@ -8,7 +8,7 @@ Everything here is built to **mirror the platform's own scoring** so a trainer's
 
 ## Why Assessment Mirrors the Platform
 
-DemandIntel scores reps on an **even, compounding 1-4 competency scale**, backed by transcript evidence (the platform quotes the exact words that earned or lost a level). Training assessment uses the **same scale and, wherever possible, the same competencies**. That gives you three things textbook assessment can't:
+Eriqa scores reps on an **even, compounding 1-4 competency scale**, backed by transcript evidence (the platform quotes the exact words that earned or lost a level). Training assessment uses the **same scale and, wherever possible, the same competencies**. That gives you three things textbook assessment can't:
 
 1. **Directly comparable scores.** A rep's training score and their live platform score speak the same language. "You scored L2 on Objection Handling in the role-play, and the platform has you at L2 on live calls" is a coaching conversation. Two unrelated numbers are not.
 2. **Evidence, not opinion.** Every level is earned against **observable behaviour in a transcript**, not a trainer's gut feel. If you can't quote the line, the level wasn't demonstrated. This is exactly how the platform scores, and it keeps calibration tight across trainers.

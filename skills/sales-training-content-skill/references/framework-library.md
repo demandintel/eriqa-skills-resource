@@ -6,11 +6,11 @@ Established, tried and tested sales and CS frameworks, organised by topic.
 
 ## Platform Default Frameworks & Alias Map
 
-DemandIntel scores reps against a fixed set of **default frameworks**. The platform's own MCP data (`get_framework`, `list_frameworks`, the QA frameworks behind `qa_scores` / `get_qa_framework`, and the generated "LAER cheat sheet" from `generate_playbook`) refers to these by their **standard acronym**. This skill teaches them under **descriptive names** so the psychology lands, but every entry also carries the acronym so a trainer can reconcile a coaching session with what the platform reports.
+Eriqa scores reps against a fixed set of **default frameworks**. The platform's own MCP data (`get_framework`, `list_frameworks`, the QA frameworks behind `qa_scores` / `get_qa_framework`, and the generated "LAER cheat sheet" from `generate_playbook`) refers to these by their **standard acronym**. This skill teaches them under **descriptive names** so the psychology lands, but every entry also carries the acronym so a trainer can reconcile a coaching session with what the platform reports.
 
 Use this table to translate between the two. When building a session for a specific rep, pull their actual scored framework from `get_framework` and teach to the levels it defines — do not assume the generic version below matches a client's customised rubric.
 
-| Standard name (acronym) | DemandIntel descriptive name | Scope | Primary roles | Primary call types |
+| Standard name (acronym) | Eriqa descriptive name | Scope | Primary roles | Primary call types |
 |---|---|---|---|---|
 | MEDDIC / MEDDPICC | Enterprise Deal Map / Extended Enterprise Map | Enterprise & procurement-heavy qualification | AE, BDM, Sales Manager, Sales Engineer | discovery, demo, negotiation, closing |
 | BANT | Foundational Fit Check | Fast four-point qualification | Outbound BDR, Inbound SDR, appointment setter, AE, BDM | cold outreach, inbound qual, discovery, demo booking |

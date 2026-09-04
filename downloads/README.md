@@ -13,7 +13,7 @@ run the installer script.
 2. Move the unzipped `sales-training-content-skill/` folder into your client's
    skills directory:
    - **Claude Code:** `~/.claude/skills/`
-3. Connect the DemandIntel MCP server using the config for your client — see the
+3. Connect the Eriqa MCP server using the config for your client — see the
    [main README](../README.md#quick-start).
 
 Keep each skill's `references/` folder alongside its `SKILL.md`; do not separate

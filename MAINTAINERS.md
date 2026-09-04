@@ -1,6 +1,6 @@
-# Maintainers (DemandIntel internal)
+# Maintainers (Eriqa internal)
 
-> Internal reference for the DemandIntel team. This repository is a controlled
+> Internal reference for the Eriqa team. This repository is a controlled
 > distribution channel — it does **not** accept external contributions.
 
 ## Adding or updating a skill
@@ -17,15 +17,15 @@
 ## Testing the installer
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/demandintel/demandintel-skills-resource/main/install.sh \
-  | DEMANDINTEL_API_KEY=di_pat_xxx bash
+curl -fsSL https://raw.githubusercontent.com/demandintel/eriqa-skills-resource/main/install.sh \
+  | ERIQA_API_KEY=di_pat_xxx bash
 
 # Point at an alternate host while testing
-DEMANDINTEL_MARKETPLACE_URL=https://<host> DEMANDINTEL_API_KEY=di_pat_xxx bash install.sh
+ERIQA_MARKETPLACE_URL=https://<host> ERIQA_API_KEY=di_pat_xxx bash install.sh
 ```
 
 Confirm the skill lands in `~/.claude/skills/<name>/` with `references/` intact,
-`claude mcp list` shows `demandintel`, and `/mcp` lists the tools.
+`claude mcp list` shows `eriqa`, and `/mcp` lists the tools.
 
 ## Keeping it locked
 
@@ -34,10 +34,11 @@ This repo is public **for read/download only**. Recommended GitHub settings:
 - Branch protection on `main` (require review, no direct pushes from non-maintainers).
 - Disable forking and disable Issues/Discussions if inbound is not wanted, or
   keep Issues open purely for customer support triage.
-- Restrict who can push to the DemandIntel org/team.
+- Restrict who can push to the Eriqa maintainers/team.
 
 ## House rules
 
 - UK spelling in skill content.
 - Skills produce **draft** material — never imply finished output.
-- MCP endpoint stays `https://mcp.app.demandintel.io/v1`.
+- MCP endpoint stays `https://mcp.app.eriqa.io/v1`.
+- The GitHub organisation remains `eriqa` unless the repository is formally transferred; repository URLs must use the real owner path.
